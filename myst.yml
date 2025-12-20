@@ -1,0 +1,52 @@
+## See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id:
+  banner: ads_logo.png
+  # thumbnail: only used in ext. website previews
+  title: "Guide to Good Practice: Geophysical Data in Archaeology"
+  subtitle: Archaeology Data Service, 2011
+  description: 
+  # funding: 
+  keywords:
+    - jupyter-book
+    - archaeology
+    - geophysical survey
+  authors:
+    - name: Armin Schmidt
+      orcid: https://orcid.org/0000-0002-4241-5381
+    - name: Eileen Ernenwein
+      orcid: https://orcid.org/0000-0003-0190-4688
+  license: CC-BY-4.0
+  open_access: true
+  doi: https://doi.org/10.5284/vrs7-8149
+  github: https://github.com/uoy-ads/ads-guides-geophys
+  toc:
+    - file: index.md
+    - file: content/1-Introduction.md
+    - file: content/2-TheLifeOfGeophysicalData.md
+    - file: content/3-DocumentingAndArchiving.md
+    - file: content/4-ArchiveFiles.md
+    - file: content/5-ComprehensiveDocumentation.md
+    - file: content/5_6-CaseStudy1.md
+    - file: content/5_7-CaseStudy2.md
+    - file: content/6-SubsetsOfDocumentation.md
+    - file: content/7-DepositingToArchives.md
+    - file: content/8-Conclusions.md
+    - file: content/9-Appendix1.md
+    - file: content/10-Appendix2.md
+    - file: content/11-Appendix3.md
+    - file: content/12-Appendix4.md
+    - file: content/13-Bibliography.md
+  exports:
+    - format: pdf
+      article: 
+      output:
+site:
+  template: book-theme
+  options:
+    favicon: images/g2gp_signpost.png
+    logo: images/g2gp_signpost.png
+    logo_text: Guides to Good Practice
+  parts:
+    footer: footer.md

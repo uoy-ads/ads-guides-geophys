@@ -1,0 +1,100 @@
+---
+authors:
+  - name: null
+---
+
+# 3 Documenting and Archiving
+
+## 3.1 Reasons for Archiving
+
+Sometimes the whole purpose of collecting and processing geophysical data appears to be the production of a final report. And since the data are essential to create it they are backed up during this phase. However, once the report is produced and possibly delivered to a client, why should the data be kept or even archived? Contractors who are paid for delivering a final report may well ask the question as to why they should spend time and hence money to prepare and deposit data for archiving, if they are not reimbursed for this. Only when the archiving of archaeological geophysical data is seen as an important aspect of a project and of archaeological heritage preservation will resources be made available to support this task. Not withstanding such commercial considerations, the following list of 'good reasons for archiving' will probably ring true with most professionals.
+
+Geophysical data are sometimes the only record of buried archaeological features that are destroyed during commercial developments and may hence be the only record of our cultural heritage in years to come; reason enough to preserve them.
+
+It is important to clearly distinguish between geophysical data and their archaeological interpretation. While "data are always and for ever right", an adage attributed to H.C. Soffel, archaeological interpretations depend on the prevailing paradigm, the experience of the interpreter, known sites of similar kind or in similar environments etc. All this knowledge and understanding may change even within a decade and archaeological re-interpretation of the geophysical data may hence become necessary and allow new insights.
+
+Archaeological research seldom relies on a single site alone and synoptic analysis requires an assemblage, or portfolio, of many sites (e.g. all Native Indian sites in Nebraska) to further our understanding of past cultures. A comprehensive selection of data, from excavation, remote sensing and geophysical survey are hence essential as an archive of our past.
+
+Evaluating results from many geophysical surveys is also important for geophysicists to develop a better understanding of the factors that allow for successful measurements and the best techniques suitable to a particular soil or geology. There is an abundance of non-archaeological parameters that influence geophysical measurements and a totally reliable prediction of survey success may not be possible [@jordan2009effective]. The lack of geophysical anomalies can therefore not be taken as a prediction for the absence of archaeological features (the 'dilemma of negative evidence'), but a large corpus of survey results allows a far better understanding of these issues and provides ways of making probability-guided estimates.
+
+It is obvious that simply keeping a small picture in a project report delivered to a client, possibly even with some confidentiality embargo, is not sufficient to allow further studies. But why then is an image of the data on a CD not enough? As explained earlier ([Section 2.7](thelifeofgeophysicaldata#id-2-7-processing)), such an image is only a visualisation of the data, produced with current computer technology. One only has to compare an old dot density printout produced ten years ago with a modern greyscale plot of the same data to immediately realise the rapid advances in computer visualisation that has improved our insight into the information content of geophysical data. If anything, these advances will only become faster (maybe 3D images on electronic paper?) and preserving the original survey data is hence essential for new and better images.
+
+This is even more true for the full range of data processing techniques. Data can now be improved with new destriping and destaggering algorithms that were not available several years ago. Only preserving the original data allows for their improvement in future with new techniques and subsequent enhanced archaeological interpretations.
+
+Nearly all geophysical survey data require improvements (see above); hardly any field survey is 'perfect'. Learning from existing data and their imperfections is an important way to improve future data acquisition and develop new methodologies. In particular, understanding which survey defects can be computationally corrected and which simply are too inconsistent to be amenable to such a treatment is an essential learning experience. Archived data are an important resource for teaching and learning in archaeological geophysics.
+
+For geophysicists in commercial and academic environments, institutional requirements frequently mitigate against wider distribution of results. Geophysics contractors often deliver their results directly to a client, maybe to be seen only by a Council Archaeologist in a planning department but otherwise locked away due to confidentiality issues. Academics may embargo access to results until a publication is released. These external pressures must not be underestimated when considering archiving strategies and issues of access need to be made clear. Amateur groups have recognised the benefits of sharing data with a wider community so as to harness further insights. There are many reasons why access to geophysical data, through an Archiving Body, is beneficial, the following gives some examples.
+* An Archiving Body may expose metadata (see below) and help with 'resource discovery'.
+* It facilitates communication within archaeology about work that has been undertaken thus
+  * helping to avoid duplication of effort,
+  * providing resources to test and develop new techniques for data treatment and analysis,
+  * enabling new research with already existing data sources.
+* Sharing data also helps in their preservation - the more formats a data set is copied into, the greater the chance of its survival. 
+
+## 3.2 Issues when archiving
+
+A well known issue in data preservation is the perishable nature of the archiving media. An external backup harddrive may easily fail, CDs and DVDs fade and only have limited life span, and fire and other hazards can destroy most storage media. Archiving therefore resorts to 'refreshing' the binary data to new media at regular intervals and storing them in duplication in secure places (for further information on this, please also consult the section on [Archival Strategies](https://doi.org/10.5284/h0p2-5584)).
+
+A problem that many have already encountered is the relatively short life span of many specialist software products. Proprietary data formats have become obsolete (e.g. InSite data files), or require licensed specialist software to read (e.g. georeferencing information in ArcGIS saved in specific aux files). It is hence desirable to export data from a specialist software package into a preservation file format so that it can be re-used more easily. The process of moving data to such preservation formats is usually referred to as 'migration' and also includes updating to newer archiving formats as they become available. A good example is the use of AutoCAD dxf and dwg files through successive versions, but even old Microsoft Word files are becoming difficult to open in the latest versions and need to be migrated to newer formats.
+
+Nevertheless, there are good reasons for using proprietary data formats while working with the data. They usually allow for efficient and comprehensive storage of all the information needed for a project (e.g. ca. 100 individual Geoplot files for 1 ha magnetometer survey). The export to a preservation format will lose some of this information (otherwise the proprietary format would probably not have been introduced) and may also be less storage-efficient (e.g. binary grid data as used in Geoplot composites converted to XYZ text files).
+
+To use data beyond pretty pictures requires accurate location information and the geophysical data therefore need to be georeferenced. Many specialist geophysical software packages process the data in their own geophysics coordinate system (see [Section 2](thelifeofgeophysicaldata)) and additional information is required to put them into the right location on a map. Different methods are available for this (see [Appendix 2](appendix2)), including location information for grid corners (e.g. tape measurements from fixed landmarks) or GNSS/GPS georeferenced polygon GIS files for the grid layout. While such georeferencing information forms part of a project's Archive ([Section 4](archivefiles)) it can also be used to export the measured geophysical data with their correct georeferenced map coordinates as an XYZ text file using a specified datum (e.g. WGS84 degrees or UTM metres instead of the geophysics coordinates).
+
+While many of these issues can be solved through technical approaches the question of who should have access to the data is far more difficult to resolve. Looters could use geophysical data published with full map coordinates to illicitly excavate and destroy valuable archaeological remains. In the USA, site location information is confidential and protected information under the Archaeological Resources Protection Act of 1979 ([16 U.S.C. 470hh](https://www.govinfo.gov/content/pkg/USCODE-2008-title16/html/USCODE-2008-title16-chap1B-sec470hh.htm)). If a geophysical survey is undertaken in advance of a planning application the results may also be deemed as classified information. As shown in the previous section archiving has many benefits and an Archive's access policy should hence be tailored in such a way as to allow for embargos on data release where this is considered necessary. It would also be possible to introduce different levels of access to an Archive. For example the 'general public' might be able to see only an un-rectified picture of a data plot while bona-fide users could access the full data set. However, the vetting of users is a thorny issue and once a dataset has been released to one user it can easily be passed on to many others with little possibility for tracking such pathways. The media industry has developed complex rights management procedures but these are unlikely to be applied to archaeological geophysics data. These issues are currently being addressed by the various Archiving Bodies, which have robust policies in place that a simple file repository would not be able to set up.
+
+## 3.3 Data documentation and metadata
+
+In order for the archived measurement data to be useable they must be accompanied by sufficient contextual information. Only then can new data processing methods be applied, old measurements integrated into a GIS and new archaeological interpretations derived. Contextual information and documentation for such data is often provided through so-called 'metadata', which can be seen as 'data about data'. They can range from the most basic (e.g. whether spatial coordinates are in metres or feet; that magnetic susceptibility values are quoted in 10-5 (SI)) to more advanced information (e.g. what is the size of the data grids, what data processing was undertaken). These metadata are either directly related to the geophysical data or to the project overall. Some of the geophysics metadata are usually stored as part of proprietary data formats (e.g. the size of data grids is included in Geoplot's composite files) but are usually lost when data are exported into preservation formats (e.g. to XYZ text files). Since software for use of the proprietary data may not be available or already obsolete, it is necessary to explicitly provide data documentation. For example, to undertake data improvement (see above) information about the size of data grids is essential; just reading a XYZ text file into a GIS package does not help. The explicit provision of geophysics metadata must hence be an integral part to the export of measurement data into preservation file formats.
+
+Another important function of metadata is their use for resource discovery. When data documentation is stored as metadata in the archival database of an Archiving Body (e.g. as in ArchSearch for the ADS, or the Digital Archaeological Record for Digital Antiquity) it is possible to use database search tools, including spatial searches, to locate the underlying data.
+
+Creation of the geophysics metadata can be time consuming and at the moment no tools exist to automatically extract them from proprietary data formats, although some teams have worked on their own solutions to implement such tools [@sparrow2009all]. Survey reports that are created following the guidelines released by English Heritage [@david2008geophysical] will contain the most essential documentation as part of the report text and compiling it in a table is hence fairly simple. It could in fact be argued that a table of metadata could replace certain sections of a professional archaeological geophysics report, thereby saving duplication of efforts. However, at the time of writing, a textual description of all parameters is still the preferred form of documentation by many clients.
+
+Maintaining a comprehensive documentation for all their geophysical survey projects will be of value to all archaeological geophysical practitioners, whether in a research or commercial environment. Such information is best held in a database as metadata and a common layout might be a desirable goal for the archaeological geophysics community. This comprehensive documentation should be part of the Archive of archaeological geophysics data, using a text document, spreadsheet or XML file.
+
+Sometimes a limited subset of metadata may be acceptable or even prescribed by an Archiving Body. Three examples are discussed in [Section 6](subsetsofdocumentation): the information used in English Heritage's Geophysical Survey Database (EH GSdb) , the OASIS project information and the Core Metadata fields for the ADS online catalogue defined according to Dublin Core. Other subsets include the information used by tDAR in the USA. Although Archiving Bodies might store only such subsets of metadata in their database for resource discovery (i.e. database searches) it is advisable to include the full metadata and documentation as part of an Archive.
+
+## 3.4 The Archive and the Archiving Body
+
+Based on this analysis, the computer files that make up the Archive can be broadly split into three categories (Table 1) which are further discussed in [Section 4](archivefiles). 
+
+* (i) Geophysics data that were collected in the field, then processed and analysed ([Section 2](thelifeofgeophysicaldata)). These consist of working files in proprietary formats, preservation files that were exported so they can be migrated by an Archiving Body, and image files for quick browsing.
+* (ii) Project material, consisting of additional files that are relevant to the overall project. These may comprise of project field notes (e.g. as pdf) and the final report, which should be written according to accepted guidelines (see [Section 2](thelifeofgeophysicaldata)).
+* (iii) Project documentation that contains all the metadata, both for the geophysical data themselves (e.g. traverse spacing, grid size) and for the project overall (e.g. dates, personnel, weather). Conceptually it is useful to think of metadata as that component of the Archive that can be stored in a database. In addition, information about georeferencing is crucial and is therefore listed here as a separate entity. The last part of the project documentation is the file description that outlines how the files are arranged in the Archive (e.g. using a sophisticated folder structure) and what naming conventions were used.
+
+```{list-table} __Table 1__: Individual components of the Archive
+:header-rows: 1
+
+* - Archive Category
+  - Components
+* - Geophysics data
+  - working files
+* - 
+  - preservation files
+* - 
+  - image files
+* - Project material
+  - project notes
+* - 
+  - project report
+* - Project documentation
+  - geophysics metadata
+* -
+  - geophysics georeferencing
+* - 
+  - project metadata
+* - 
+  - file description
+```
+
+
+Once the Archive is formed, it can be deposited to an Archiving Body. Some Archiving Bodies may have particular requirements for the folder structure of archives that they 'ingest' and this will have to be taken into account before the Archive can be deposited. There may even be cases where the Archive's layout that appears most appropriate for the geophysical data and the project are incompatible with the requirements of the Archiving Body and compromises will have to be found. Given the comprehensive project documentation that will have been prepared as part of the Archive it is relatively easy to extract the metadata that a particular Archiving Body requires for their own system. Regrettably, this in many cases is still a manual process (e.g. for OASIS) and solutions will have to be found, possibly based on specific XML schemata. 
+
+Not all Archiving Bodies have the same functionality and several broad types can be distinguished.
+* __1. In-House Archiving__: a solution whereby the Archive, as a set of files or packed into a single zip/tar file, is maintained by a contractor or academic department themselves. It is essential to refresh the media regularly (e.g. create a new DVD copy every year, copy data to a new harddrive) and keep equivalent copies in different places. Each refresh should be checked for copy errors and labelled with a new refresh number. See also [Planning for the Creation of Digital Data](https://doi.org/10.5284/h0p2-5584).
+* __2. File Repository__: a commercial storage facility to which the Archive is submitted, for example via the Internet, sometimes also referred to as 'Cloud Storage'. The repository charges for the guaranteed long-term preservation of the Archive in its deposited form. Different access agreements are possible (e.g. only the depositor, or other parties with appropriate access credentials). The repository will have mechanisms in place to regularly refresh the Archive and keep copies in safe and secure locations.
+* __3. Managed Archiving__: in addition to a file repository, this is providing migration and indexing of the content of the Archive. For this, the preservation files from the Archive are noted and regularly migrated to new formats as standards evolve. In addition, a subset of the metadata is used to describe the Archive and thereby make it part of the overall body of material held by this Archiving Body.
+* __4. Accessible Archiving__: making a managed archive available to other users, usually over the Internet. This can be through a simple web interface or via some data interchange standards. Access agreements and policies are usually drawn up by the Archiving Body upon deposition of the Archive to specify who can access what parts of the Archive. Often only the preservation files are made accessible as they do not require specialised software. The difficulties related to access rights for different user groups and the granularity of file access were noted above ([Section 3.2](documentingandarchiving#id-3-2-issues-when-archiving)).
+
+These types of Archiving Bodies are not mutually exclusive; for example In-House Archiving may be complemented by an automatically updated File Repository or Accessible Archiving may host some of its Archives only through Managed Archiving. Nevertheless, one major distinction remains with regards to the treatment of the deposited Archive. File archiving (types one and two) is static and does not make any changes to the files that form the Archive, it simply preserves them. In contrast, information archiving (types 3 and 4) attempts to maintain the information captured in the data files, for example by using preservation formats and migrating the files regularly. Clearly, there is a considerable range of functions that Archiving Bodies can offer and the associated costs are linked to their level of service.

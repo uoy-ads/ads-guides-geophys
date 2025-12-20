@@ -1,0 +1,28 @@
+---
+authors:
+  - name: null
+---
+
+# 1 Introduction
+
+## 1.1 Aims and objectives of this Guide
+
+Does this sound familiar: ‘Archiving is complicated and everyone does it differently anyway’. To make sure this does not become an excuse to put off the archiving of archaeological geophysics data altogether, this Guide aims to clarify the issues involved and provide examples and help. It is a tall order which is addressed from two ends. Starting with common knowledge about the way data are collected in archaeological geophysics ([Section 2](thelifeofgeophysicaldata)) and well known issues with data storage ([Section 3](documentingandarchiving)), a systematic and comprehensive analysis of what makes up an Archive is developed ([Section 3.4](documentingandarchiving#id-3-4-the-archive-and-the-archiving-body)), forming the conceptual framework and being explained in considerable detail ([Section 4](archivefiles) and [Section 5](comprehensivedocumentation)). Existing Archiving Bodies, even those which only contain 'thin records' and not 'thick archives' (e.g. the English Heritage Geophysics Database and OASIS) are then mapped with their holdings against this framework ([Section 6](subsetsofdocumentation)) showing which parts of the archiving spectrum they cover. Finally a worked examples shows step-by step how an Archive is compiled ([Section 7](depositingtoarchives)) for deposition to an Archiving Body so that users will be able to evaluate their own archiving practice and, where necessary, update it. 
+
+## 1.2 Terminology used
+
+Different users and different countries have their own way to refer to geophysical data, data acquisition and the archaeological context in which they are collected. This Guide attempts to use a consistent terminology which is based on the authors’ experience of working with colleagues and other professions. Where different terms are commonly used, these will be mentioned and only one term will be used in this document. Sometimes, we may even omit specific reference to ‘archaeological’ geophysics, since this is the overall context in which this text is written. While the term ‘archiving’ is often used in a generic way meaning either the data or the location of their storage, we refer to the Archive as the collection of computer files that are to be preserved by an Archiving Body of some description, including in-house data storage. The task of ‘archiving’ consists of creating the Archive, depositing it at an Archiving Body and for that one to do with it what their stated purpose is (i.e. keep it statically or make it available, see [Section 3.4](documentingandarchiving#id-3-4-the-archive-and-the-archiving-body)). Of course in this Guide the Archive is always meant to be an archive of archaeological geophysics data; not of pot sherds or slag in boxes.
+
+## 1.3 Backing up project data
+
+This Guide is mainly concerned with archiving and documentation of geophysical data once a project has been completed. While a project is ongoing it is of course sensible to generate all information and data with the future Archive already in mind and in this respect the Guide will also be relevant to ongoing projects. Obviously data backup is essential during this process even before the final Archive is created and some advice on this can be found in '[Planning for the Creation of Digital Data](https://doi.org/10.5284/h0p2-5584)'. This is not the main focus of this Guide, however, where the Archive and its deposition to an Archiving Body is more than just data backup.
+
+## 1.4 Layout of this Guide
+
+The first edition of this Guide [@schmidt2002geophysical] started with a general overview of geophysical surveys in archaeology, their history and what the possible objectives are within an overall archaeological project. Eight years on, this is deemed to be much better known now and this overview of archaeological geophysics has hence been moved to the [Appendix 3](appendix3).
+
+Instead, this second edition starts ([Section 2](thelifeofgeophysicaldata)) by exploring the life-cycle of archaeological geophysical data, from the collection in the field to reporting and archiving. This will help to appreciate what information needs to be documented at each stage so that all the results can be archived. But exactly why should data be archived? This will be discussed in detail in [Section 3](documentingandarchiving), describing also the importance of metadata for data discovery and re-use (see also the general sections on '[Metadata and Documentation](https://doi.org/10.5284/h0p2-5584)'). A more detailed description of the various computer files that make up the Archive is given in [Section 4](archivefiles).
+
+The detailed tabulation of metadata for archaeological geophysical surveys is given in [Section 5](comprehensivedocumentation), and [Section 6](subsetsofdocumentation) presents subsets of this comprehensive list that are useful for archiving with certain Archiving Bodies, or when submitting project information under particular documentation schemes. The procedures for actually preparing data and metadata and then submitting them for archiving are illustrated with an example in [Section 7](depositingtoarchives).
+
+The Appendix contains an explanation of preservation file formats ([Appendix 1](appendix1)), a description of issues related to the georeferencing of geophysical data, including brief comments on GNSS/GPS ([Appendix 2](appendix2)) and a general overview of archaeological geophysics ([Appendix 3](appendix3)). The latter two sections have been revised from the first edition of the Guide and especially the georeferencing part has been updated to use terminology aligned with the OpenGIS and [OGC guidelines](https://www.ogc.org/).
